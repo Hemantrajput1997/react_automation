@@ -1,0 +1,8 @@
+version: "2"
+services:
+  webapp:
+    ports:
+      - "3000:3000"
+    image: "react:app"
+    tty: true
+    container_name: "server1"
