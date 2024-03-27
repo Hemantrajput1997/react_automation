@@ -21,7 +21,7 @@ jobs:
 
     - name: Deploy to AWS
       run: |
-        ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/ ubuntu@3.137.173.30 "
-        cd /var/www/html/new
+        ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/ ubuntu@3.147.75.157 "
+        cd /var/www/html/react
         sudo git pull origin master 
         sudo /var/www/html/react/docker.sh "
